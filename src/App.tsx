@@ -1,7 +1,7 @@
-import Upload from "./pages/Upload";
+import Create from "./pages/Create";
 
 function App() {
-  return <Upload />;
+  return <Create />;
 }
 
 export default App;

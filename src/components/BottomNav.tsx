@@ -1,24 +1,31 @@
 export default function BottomNav() {
   return (
-    <div
-      style={{
-        position: "fixed",
-        bottom: 0,
-        left: 0,
-        right: 0,
-        height: "60px",
-        background: "#000",
-        borderTop: "1px solid #333",
-        display: "flex",
-        justifyContent: "space-around",
-        alignItems: "center",
-        color: "#fff",
-        zIndex: 999,
-      }}
-    >
-      <div>🏠 Home</div>
-      <div style={{ fontSize: "28px" }}>➕</div>
-      <div>👤 Profile</div>
-    </div>
+    <nav className="bottom-nav">
+
+      <button className="nav-item">
+        <span>🏠</span>
+        <small>Beranda</small>
+      </button>
+
+      <button className="nav-item">
+        <span>📩</span>
+        <small>Kotak Masuk</small>
+      </button>
+
+      <button className="nav-item upload-center">
+        <span>➕</span>
+      </button>
+
+      <button className="nav-item">
+        <span>🔔</span>
+        <small>Notifikasi</small>
+      </button>
+
+      <button className="nav-item">
+        <span>👤</span>
+        <small>Profil</small>
+      </button>
+
+    </nav>
   );
 }
