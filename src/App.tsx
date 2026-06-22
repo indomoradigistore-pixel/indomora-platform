@@ -1,4 +1,4 @@
-import Upload from "./pages/upload";
+import Upload from "./pages/Upload";
 
 function App() {
   return <Upload />;
